@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694233034690",
+    "firebase_url": "https://agrovision-8de80-default-rtdb.firebaseio.com",
+    "project_id": "agrovision-8de80",
+    "storage_bucket": "agrovision-8de80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694233034690:android:b837b8caa59fcacc9fb05b",
+        "android_client_info": {
+          "package_name": "com.perfectcorp.brift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694233034690-ovlo7v6m9jacs8llsg5fh3ct4n480pjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Rk0XPmDyCaqigWW3vHSTmRkXrByKxfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694233034690-ovlo7v6m9jacs8llsg5fh3ct4n480pjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

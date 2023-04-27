@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        >
+        <group
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Profil"/>
+            <item
+                android:id="@+id/nav_notif"
+                android:icon="@drawable/ic_baseline_notifications_24"
+                android:title="Notifications"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_assistant_direction_24"
+                android:title="Guide d'utilisation"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_contacts_24"
+                android:title="Contactez nous"/>
+        </group>
+        <item
+            android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Logout"/>
+        </menu>
+        </item>
+
+    </menu>
