@@ -12,7 +12,4 @@ public class Fournisseurs extends AppCompatActivity {
         setContentView(R.layout.activity_fournisseurs);
     }
 
-    public void Data(){
-
-    }
 }

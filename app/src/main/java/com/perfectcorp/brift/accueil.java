@@ -18,7 +18,7 @@ public class accueil extends AppCompatActivity {
             suivant.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent call = new Intent(getApplicationContext(), Accueil.class);
+                    Intent call = new Intent(getApplicationContext(), guide.class);
                     startActivity(call);
                     finish();
                 }

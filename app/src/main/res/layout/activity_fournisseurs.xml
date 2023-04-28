@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="390dp"
-    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Fournisseurs">
@@ -11,16 +10,26 @@
     <TextView
         android:id="@+id/t1"
         android:layout_width="match_parent"
-        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:text="Fournisseurs"
-        android:layout_marginTop="5dp"/>
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="26dp"
-        android:scrollbarAlwaysDrawVerticalTrack="true">
+        android:layout_marginTop="50dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        tools:layout_editor_absoluteY="26dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,171 +37,173 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/l1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:id="@+id/l1"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/is4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="35dp"
                     tools:layout_editor_absoluteY="709dp"
-                    tools:srcCompat="@tools:sample/avatars"
-                    tools:ignore="MissingConstraints" />
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="25dp">
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
+
                     <TextView
                         android:id="@+id/ts6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cafcoop Ltd"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Cafcoop Ltd" />
 
                     <TextView
                         android:id="@+id/ts16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact : 677 98 97 16"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Contact : 677 98 97 16" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/l2"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/is6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="39dp"
                     tools:layout_editor_absoluteY="1083dp"
-                    tools:srcCompat="@tools:sample/avatars"
-                    tools:ignore="MissingConstraints" />
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="25dp">
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
+
                     <TextView
                         android:id="@+id/ts7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="SEPTROPIC"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="SEPTROPIC" />
 
                     <TextView
                         android:id="@+id/ts17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact : 677 98 97 17"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Contact : 677 98 97 17" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:id="@+id/l3"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/is5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="35dp"
                     tools:layout_editor_absoluteY="888dp"
-                    tools:srcCompat="@tools:sample/avatars"
-                    tools:ignore="MissingConstraints" />
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="25dp">
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/ts5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="COOP ASCENSION"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="COOP ASCENSION" />
 
                     <TextView
                         android:id="@+id/ts25"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cantact : 677 98 97 18"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Cantact : 677 98 97 18" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/l4"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/is3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="35dp"
                     tools:layout_editor_absoluteY="527dp"
-                    tools:srcCompat="@tools:sample/avatars"
-                    tools:ignore="MissingConstraints" />
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="25dp">
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/ts4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="DHTL"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="DHTL" />
 
                     <TextView
                         android:id="@+id/ts14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact : 677 98 97 19"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Contact : 677 98 97 19" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/l5"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/is2"
@@ -206,34 +217,34 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="25dp">
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/ts3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="WESTEND FARMS PLC"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="WESTEND FARMS PLC" />
 
                     <TextView
                         android:id="@+id/ts13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact : 677 98 97 20"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Contact : 677 98 97 20" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/l6"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/is"
@@ -247,24 +258,24 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="25dp">
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/ts2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="GUIYOHESQUE"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="GUIYOHESQUE" />
 
                     <TextView
                         android:id="@+id/ts12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact : 677 98 97 25"
                         android:layout_marginLeft="25dp"
-                        android:layout_marginTop="20dp"/>
+                        android:layout_marginTop="20dp"
+                        android:text="Contact : 677 98 97 25" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -273,4 +284,4 @@
 
     </ScrollView>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

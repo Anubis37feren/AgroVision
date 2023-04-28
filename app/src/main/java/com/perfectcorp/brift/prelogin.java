@@ -43,7 +43,7 @@ public class prelogin extends AppCompatActivity {
         csc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent call = new Intent(getApplicationContext(), Accueil.class);
+                Intent call = new Intent(getApplicationContext(), accueil.class);
                 startActivity(call);
                 finish();
 

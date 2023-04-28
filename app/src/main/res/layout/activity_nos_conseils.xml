@@ -1,51 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="390dp"
-    android:layout_marginLeft="10dp"
-    android:layout_height="match_parent"
-    tools:context=".NosConseils"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:text="Conseils et astuces"
         android:textAlignment="center"
-        android:textSize="25dp"/>
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
     <TextView
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:text="       La quasi-totalité des maladies du manioc se transmettent par des boutures contaminées."
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="9dp"/>
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:text="La quasi-totalité des maladies du manioc se transmettent par des boutures contaminées."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
 
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:text="       Les virus, les bactéries et les champignons à l'origine des différentes maladies survivent sur ou dans les tiges de manioc. Elles sont ainsi facilement transmises à de nouvelles exploitations agricoles."
-        android:layout_marginTop="1dp"
-        android:layout_marginLeft="9dp" />
+        android:text="Les virus, les bactéries et les champignons à l'origine des différentes maladies survivent sur ou dans les tiges de manioc. Elles sont ainsi facilement transmises à de nouvelles exploitations agricoles."
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
 
     <Button
         android:id="@+id/b4"
-        android:layout_width="259dp"
-        android:layout_height="72dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
         android:text="Prevenons les maladies"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="75dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
 
     <Button
         android:id="@+id/b5"
-        android:layout_width="259dp"
-        android:layout_height="72dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
         android:text="Luttons contre la maladie"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="75dp"/>
-</LinearLayout>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

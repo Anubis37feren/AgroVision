@@ -9,22 +9,13 @@ import android.view.View;
 import android.widget.Button;
 
 public class guide extends AppCompatActivity {
-    Button bak, french, anglais, langloc;
+    Button french, anglais, langloc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
 
-        bak = findViewById(R.id.back);
-        bak.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-            Intent call = new Intent(getApplicationContext(), Accueil.class);
-            startActivity(call);
-            finish();
-            }
-        });
 
         french = findViewById(R.id.francais);
         french.setOnClickListener(new View.OnClickListener() {
