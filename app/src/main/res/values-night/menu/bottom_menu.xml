@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Accueil"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="Archive"
+        android:icon="@drawable/ic_baseline_archive_24"
+        />
+
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/subscriptions"
+        android:title="Communauté"
+        android:icon="@drawable/ic_baseline_group_24" />
+    <item
+        android:id="@+id/library"
+        android:title="Compte"
+        android:icon="@drawable/ic_baseline_person_24" />
+
+</menu>

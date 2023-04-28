@@ -2,30 +2,50 @@ package com.perfectcorp.brift;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-
-import com.perfectcorp.brift.R;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
-
-
-    private final int time = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new Handler().postDelayed(new Runnable() {
+        Button b1 = findViewById(R.id.b1);
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                Intent intent = new Intent(getApplicationContext(), prelogin.class);
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,NosConseils.class);
                 startActivity(intent);
-                finish();
-
             }
-        }, time);
+        });
+        Button b2 = findViewById(R.id.b2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(MainActivity.this, Specilaistes.class);
+                startActivity(intent);
+            }
+        });
+        Button b3 = findViewById(R.id.b3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Ventes.class);
+                startActivity(intent);
+            }
+        });
+        Button b5 = findViewById(R.id.b6);
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Questions.class);
+                startActivity(intent);
+            }
+        });
     }
+
 }

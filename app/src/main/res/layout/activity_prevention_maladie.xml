@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_marginLeft="40dp"
+    android:layout_height="match_parent"
+    tools:context=".PreventionMaladie"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Mesures preventives"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       La prevention est le meilleur moyen de minimiser les pertes de productuion. Alors, voici quelques astuces"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 1-	Identifiez les maladies courantes du manioc et les sympt6mes des dégâts, et familiarisez-vous avec les conditions dans lesquelles elles provoquent des pertes sévères; "
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 2-	Choisissez des sites a végétation dense, des sols loameux (type de texture) profonds et un terrain plat ou légèrement Incliné pour la culture du manioc; "
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 3-    Améliorez le sol par fumage, paillage et culture associé afin de favoriser une croissance vigoureuse des pieds de manioc qui pourront ainsi résister aux maladies ;"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 4-	Cultivez des variétés de manioc tolérantes aux maladies les plus répandues dans votre localité ;"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 5-	Plantez des boutures prelev6es sur des plants sains sans chlorose foliaire, nécrose apicale, chancres, mycéliums ou striures sur tige ;"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 6-	Après la récoltes des tubercules, détruisez les tiges et racines de manioc présentant tout symptôme pathologique; "
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 7-	Pour lutter contre la mosaïque du manioc prélevez le matériel de plantation surtout sur les rameaux : "
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 8-	Evitez la base et les portions principales de la tige comme sources de boutures; "
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 9-	Plantez le manioc au début de la saison pluvieuse : essayez d'6vIter le bouturage tardif"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"/>
+</LinearLayout>

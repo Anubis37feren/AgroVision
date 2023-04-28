@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <!-- fait par Djonyabe parfait -->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Pseudo"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/spseud"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/zonetext"
+                android:hint="Entrer votre pseudo"
+                android:inputType="textPersonName"
+                android:shadowRadius="7.0" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="phone"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/zonetext"
+                android:hint="Entrer votre numéro"
+                android:inputType="textPersonName"
+                android:shadowRadius="7.0" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- fait par Djonyabe parfait -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Email"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/semail"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/zonetext"
+                android:hint="abcd@xyz.com"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Password"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:endIconMode="password_toggle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/spassword"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/zonetext"
+                    android:hint="Entrez votre mot de passe"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- fait par Djonyabe parfait -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Confirmer le mot de passe"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cspassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/zonetext"
+                android:hint="Entrez le même mot de passe"
+                android:inputType="text|textPassword"
+                android:password="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:gravity="center"
+            android:text="Créer compte"
+            android:textAllCaps="false"
+            app:iconGravity="textStart">
+
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vous avez deja un  compte?"
+                android:textSize="15sp"
+                android:layout_marginStart="5dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textconnect1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="Se connecter"
+                android:textColor="@color/purple_500"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

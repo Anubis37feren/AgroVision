@@ -13,10 +13,14 @@ package com.perfectcorp.brift;
 
 
         import android.app.Dialog;
+        import android.content.Intent;
         import android.graphics.Color;
         import android.graphics.drawable.ColorDrawable;
+        import android.os.Build;
         import android.os.Bundle;
         import android.view.Gravity;
+        import android.view.Menu;
+        import android.view.MenuInflater;
         import android.view.MenuItem;
         import android.view.View;
         import android.view.ViewGroup;
@@ -60,7 +64,9 @@ public class Accueil extends AppCompatActivity implements NavigationView.OnNavig
         }
         replaceFragment(new HomeFragment());
 
-        bottomNavigationView.setBackground(null);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+            bottomNavigationView.setBackground(null);
+        }
         bottomNavigationView.setOnItemSelectedListener(item -> {
 
             switch (item.getItemId()) {
@@ -90,7 +96,6 @@ public class Accueil extends AppCompatActivity implements NavigationView.OnNavig
     }
 
 
-
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.nav_home:
@@ -100,10 +105,6 @@ public class Accueil extends AppCompatActivity implements NavigationView.OnNavig
             case R.id.nav_about:
                 getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout,
                         new HomeFragment()).commit();
-                break;
-            case R.id.nav_share:
-                getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout,
-                        new TestFragment());
                 break;
             case R.id.nav_notif:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
@@ -189,7 +190,29 @@ public class Accueil extends AppCompatActivity implements NavigationView.OnNavig
 
     }
 
-   
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = new MenuInflater(this);
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.item2:
+                Intent intent = new Intent(getApplicationContext(), guide.class);
+                startActivity(intent);
+                finish();
+                return true;
+            case R.id.item3:
+                Toast.makeText(this, "Item 3 selected", Toast.LENGTH_SHORT).show();
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 
 }

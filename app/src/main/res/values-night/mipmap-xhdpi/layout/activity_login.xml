@@ -1,0 +1,154 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:background="@color/white"
+    tools:context=".login">
+    <!-- fait par Djonyabe parfait -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="468dp"
+        android:layout_marginBottom="116dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Email"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundMode="outline"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Emaill"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/zonetext"
+                android:hint="Entrer votre Email"
+                android:inputType="textWebEmailAddress"
+                android:shadowRadius="7.0"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- fait par Djonyabe parfait -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Password"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/zonetext"
+                android:hint="Entrez votre mot de passe"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- fait par Djonyabe parfait -->
+
+
+        <Button
+            android:id="@+id/sconnecter"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/purple_500"
+            android:gravity="center"
+            android:text="Se connecter"
+            android:textAllCaps="false"
+            app:iconGravity="textStart">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/mpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mot de passe oublié ?"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:text="Vous n'avez pas de compte?"
+                android:textSize="13dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                android:text="Créer un compte"
+                android:textColor="@color/purple_500"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/icona"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

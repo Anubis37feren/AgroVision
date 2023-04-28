@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    tools:context=".SolutionsCurrative"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soignons le champ"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:text="       Pour eviter que les infecte ne contaminent les plants sains, il suffit de les arracher et les brler le plus tot possible et ce loin des plants sains."/>
+</LinearLayout>

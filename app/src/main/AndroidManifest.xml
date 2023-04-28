@@ -17,6 +17,123 @@
         android:theme="@style/Theme.AppAno"
         tools:targetApi="31">
         <activity
+            android:name=".splash"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RowChatRight"
+            android:exported="true" />
+        <activity
+            android:name=".RowChatLeft"
+            android:exported="true" />
+        <activity
+            android:name=".Questions"
+            android:exported="true" />
+        <activity
+            android:name=".Fournisseurs"
+            android:exported="true" />
+        <activity
+            android:name=".ChatSpecialiste"
+            android:exported="true" />
+        <activity
+            android:name=".Ventes"
+            android:exported="true" />
+        <activity
+            android:name=".Specilaistes"
+            android:exported="true" />
+        <activity
+            android:name=".SolutionsCurrative"
+            android:exported="true" />
+        <activity
+            android:name=".PreventionMaladie"
+            android:exported="true" />
+        <activity
+            android:name=".NosConseils"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".enguide5"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".enguide4"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".enguide3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".enguide2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".enguide1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".guide5"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".guide4"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".guide3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".guide2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".guide1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".audio"
             android:exported="false">
             <meta-data
@@ -88,15 +205,7 @@
         <activity
             android:name=".prelogin"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

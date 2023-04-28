@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_marginLeft="35dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Specilaistes">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Contactez un de nos expert pour une meilleure opinion"
+        android:layout_marginTop="0dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="26dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/l1"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/is4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="35dp"
+                    tools:layout_editor_absoluteY="709dp"
+                    tools:srcCompat="@tools:sample/avatars"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="25dp">
+                    <TextView
+                        android:id="@+id/ts6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom : MAFFO Laetitia"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Proffession : Ingenieur"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Experience : 3 ans"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/l2"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/is6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="39dp"
+                    tools:layout_editor_absoluteY="1083dp"
+                    tools:srcCompat="@tools:sample/avatars"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="25dp">
+                    <TextView
+                        android:id="@+id/ts7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom : MBODO Lucresse"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profession : Ingenieur"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Experience : 4 ans"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/l3"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/is5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="35dp"
+                    tools:layout_editor_absoluteY="888dp"
+                    tools:srcCompat="@tools:sample/avatars"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:id="@+id/ts5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom : KAMDEM Laress"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profession : Ingenieur"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Experience : 4 ans"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/l4"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/is3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="35dp"
+                    tools:layout_editor_absoluteY="527dp"
+                    tools:srcCompat="@tools:sample/avatars"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:id="@+id/ts4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom : FOPA Jordan"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profession : Ingenieur"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ts24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Experience : 4 ans"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/l5"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:id="@+id/is2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="35dp"
+                        tools:layout_editor_absoluteY="338dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="25dp">
+
+                        <TextView
+                            android:id="@+id/ts3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nom : ANONEME HOUREYNATOU"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:id="@+id/ts13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profession : Ingenieur"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:id="@+id/ts23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Experience : 4 ans"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/l6"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:id="@+id/is"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="35dp"
+                        tools:layout_editor_absoluteY="151dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="25dp">
+
+                        <TextView
+                            android:id="@+id/ts2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nom : DJONYABE Parfait"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:id="@+id/ts12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profession : Ingenieur"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:id="@+id/ts22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Experience : 4 ans"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

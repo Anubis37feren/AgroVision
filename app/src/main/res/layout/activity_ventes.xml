@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ventes"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="De quoi avez-vous besoin ?"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Engrais"
+        android:textSize="30dp"
+        android:id="@+id/bt1"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Herbicides"
+        android:textSize="30dp"
+        android:id="@+id/bt2"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Pesticides"
+        android:textSize="30dp"
+        android:id="@+id/bt3"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
